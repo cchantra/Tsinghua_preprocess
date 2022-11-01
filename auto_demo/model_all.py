@@ -9,7 +9,7 @@ from keras_tuner import RandomSearch
 from tensorflow import keras
 import numpy as np
 
-class SqueezeNet11Model(HyperModel):
+class SqueezeNet11AutoModel(HyperModel):
     def __init__(self, classes, IMG_WIDTH, IMG_HEIGHT):
         self.classes = classes
         self.IMG_WIDTH = IMG_WIDTH
@@ -96,7 +96,7 @@ class SqueezeNet11Model(HyperModel):
         return model
 
 
-class SqueezeNetModel(HyperModel):
+class SqueezeNetAutoModel(HyperModel):
     def __init__(self, classes, IMG_WIDTH, IMG_HEIGHT):
         self.classes = classes
         self.IMG_WIDTH = IMG_WIDTH
