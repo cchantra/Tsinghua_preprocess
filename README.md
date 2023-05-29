@@ -18,4 +18,5 @@ mediapipe_preprocess -> demo the extraction of 3D landmarks for TsinghuaFED (dra
 
 auto_demo folder -> stores notebook for auto search with cifar, Tsinghua, for auto SqueezeNet (with SE and skipped)
 
+  -> added examples for semantic segmentation and object detection using Unet and SSD MobileNet as well.
 
